@@ -2,7 +2,10 @@
 * { 
   box-sizing: border-box;
 }
-  
+
+.contact-list {
+  text-align: center;
+}
 body {
   margin: 0;
   padding: 0;
