@@ -19,8 +19,10 @@ body{
 header .main-image:hover{
   transform: scale(1.2) rotate(360deg);
 }
-
-h1{
+h2{
+  text-decoration: underline;
+}
+h1 {
   text-align:center;
   background-color:#74a1e8;
   padding: 5px;
@@ -28,7 +30,14 @@ h1{
   display:table;
   margin:auto;
 }
-
+.tag{
+  text-align:center;
+  background-color:#74a1e8;
+  padding: 5px;
+  border-radius:5px;
+  display:table;
+  margin:auto;
+}
 .section-title{
     text-transform:capitalize; 
 }
