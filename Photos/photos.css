@@ -1,6 +1,6 @@
 header{
   text-align:center;
-  background: url('images/aulanicropped4.jpeg') no-repeat top center ;
+  background: url('../images/aulanicropped4.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;

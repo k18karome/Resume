@@ -1,10 +1,10 @@
 
 header{
   text-align:center;
-  background:url('images/clouds.jpeg') no-repeat top center;
+  background:url('../images/clouds.jpeg') no-repeat top center;
   background-size:cover;
   overflow:auto;
-  padding-top:100pxx;
+  padding-top:100px;
   height:100%;
 }
 body{
