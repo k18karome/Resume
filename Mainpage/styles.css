@@ -2,11 +2,121 @@
 * { 
   box-sizing: border-box;
 }
+.photos-page {
+  text-align:center;
+  background: url('../images/aulanicropped4.jpeg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.photosmain-image{
+    border-radius:50%;
+    width:250px;
+    height:250px;
+}
+header .profile-image:hover{
+  transform: scale(1.2) rotate(360deg);
+}
+.photos-h1{
+  text-align:center;
+  background-color:lightgrey;
+  padding: 5px;
+  border-radius:5px;
+  display:table;
+  margin:auto;
+}
+.photos-title{
+  text-align:center;
+  background-color:slategrey;
+  padding: 5px;
+  border-radius:5px;
+  display:table;
+  margin:auto;
+}
+main .bigpic{
+  height:250px;
+  width: 500px;
+}
+main .aulanipic{
+  height: 250px;
+  width: 375px;
+}
+.photos-body {
+  text-align: center;
+}
 
+.aulanipic .bigpic .tallpic{
+  padding:15px;
+}
+main .tallpic{
+  height:450px;
+  width: 300px;
+}
+.photos-h2{
+  text-decoration: underline;
+  padding-top: 30px;
+}
+.resume-header{
+  text-align:center;
+  background:url('../images/clouds.jpeg') no-repeat top center;
+  background-size:cover;
+  overflow:auto;
+  padding-top:100px;
+  height:100%;
+}
+body .resume-body{
+  font-family: "Arial";
+}
+header .resumemain-image{
+    border: solid black 4px;
+    border-radius:50%;
+    width:250px;
+    height:250px;
+}
+header .resumemain-image:hover{
+  transform: scale(1.2) rotate(360deg);
+}
+.resume-h2{
+  text-decoration: underline;
+}
+h1 .tag-resume{
+  text-align:center;
+  background-color:#74a1e8;
+  padding: 5px;
+  border-radius:5px;
+  display:table;
+  margin:auto;
+}
+.tag-resume{
+  text-align:center;
+  background-color:#74a1e8;
+  padding: 5px;
+  border-radius:5px;
+  display:table;
+  margin:auto;
+}
+.section-title{
+    text-transform:capitalize; 
+}
+.photos-page {
+  text-align:center;
+  background: url('../images/aulanicropped4.jpeg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 .contact-list {
   text-align: center;
 }
-body {
+body .index-body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+footer{
   margin: 0;
   padding: 0;
   text-align: center;
@@ -55,14 +165,14 @@ a:hover {
   color: white
 }
 
-header {
+.index-header {
   text-align: center;
   background: url('../images/sunsetcropped.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
-header {
+.index-header {
   line-height: 1.5;
 }
 header .profile-image {
@@ -166,7 +276,6 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
